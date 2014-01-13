@@ -1,5 +1,7 @@
 # Welcome to Xamarin University!
 
+![Xamarain University Logo](https://raw2.github.com/xamarin/XamarinUniversity/master/Support_Files/XamU_Logo_BlueBackground.png)
+
 We're excited to have you enrolled. Please read through this page, as it has lots of important things to be aware of.
 
 ## Software and Hardware Requirements
