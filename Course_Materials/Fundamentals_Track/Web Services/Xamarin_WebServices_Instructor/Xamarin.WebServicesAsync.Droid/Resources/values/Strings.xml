@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="app_name" >Xamarin Web Services</string>
+
+  <!-- Labels for the TabWidget -->
+  <string name="activity_rest_label" >RESTful</string>
+  <string name="activity_soap_label" >SOAP</string>
+</resources>

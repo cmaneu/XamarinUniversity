@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.WebServicesAsync.Droid\Client\SoapClient.cs">
+    <Files>
+      <File FileName="Xamarin.WebServicesAsync.Droid\Activities\RestActivity.cs" Line="15" Column="5" />
+      <File FileName="Xamarin.WebServicesAsync.Droid\Activities\SoapActivity.cs" Line="35" Column="5" />
+      <File FileName="Xamarin.WebServicesAsync.Droid\Client\RestClient.cs" Line="16" Column="5" />
+      <File FileName="Xamarin.WebServicesAsync.Droid\Client\SoapClient.cs" Line="16" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

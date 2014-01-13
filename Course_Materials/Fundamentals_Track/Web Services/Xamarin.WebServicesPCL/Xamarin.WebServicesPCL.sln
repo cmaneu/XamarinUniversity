@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.WebServicesPCL.Core", "Xamarin.WebServicesPCL.Core\Xamarin.WebServicesPCL.Core.csproj", "{AF41509A-D0F0-42D9-99CC-68B19D1B4A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.WebServicesPCL.Droid", "Xamarin.WebServicesPCL.Droid\Xamarin.WebServicesPCL.Droid.csproj", "{2F0CDBE7-E6FC-406A-A638-658CC349F711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0CDBE7-E6FC-406A-A638-658CC349F711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0CDBE7-E6FC-406A-A638-658CC349F711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0CDBE7-E6FC-406A-A638-658CC349F711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0CDBE7-E6FC-406A-A638-658CC349F711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF41509A-D0F0-42D9-99CC-68B19D1B4A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF41509A-D0F0-42D9-99CC-68B19D1B4A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF41509A-D0F0-42D9-99CC-68B19D1B4A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF41509A-D0F0-42D9-99CC-68B19D1B4A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Xamarin.WebServicesPCL.Droid\Xamarin.WebServicesPCL.Droid.csproj
+	EndGlobalSection
+EndGlobal
