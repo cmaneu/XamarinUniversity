@@ -1,8 +1,6 @@
 ﻿using System;
 using Android.App;
 using Android.Content;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
 
@@ -18,20 +16,19 @@ namespace PhonewordAndroid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // TODO: Step 1 - Add code to translate number
-
-            string translatedNumber = string.Empty;
-
             // Get our UI controls from the loaded layout
             Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
             EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
             Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
+            // Disable the "Call" button
             callButton.Enabled = false;
-            
+
+            // Add code to translate number
+            string translatedNumber = string.Empty;
+
             translateButton.Click += delegate
             {
-                // *** SHARED CODE ***
                 translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
                 if (String.IsNullOrWhiteSpace(translatedNumber)) {
                     callButton.Text = "Call";
@@ -43,25 +40,27 @@ namespace PhonewordAndroid
                 }
             };
 
-            // TODO: Step 2 - Add callButton event handler here
-
-            // On "Call" button click, try to dial phone number.
-            callButton.Click += (object sender, EventArgs e) =>
+            // Add callButton event handler here
+            callButton.Click += (sender, e) =>
             {
-                var callDialog = new AlertDialog.Builder(this)
-                    .SetMessage("Call " + translatedNumber + "?")
-                    .SetNeutralButton("Call", 
-                        delegate {
-                            var callIntent = new Intent(Intent.ActionCall);
-                            callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
-                            StartActivity(callIntent);
-                           })
-                    .SetNegativeButton("Cancel", delegate {});
+                // On "Call" button click, try to dial phone number.
+                var callDialog = new AlertDialog.Builder(this);
+                callDialog.SetMessage("Call " + translatedNumber + "?");
+                callDialog.SetNeutralButton("Call", 
+                    delegate
+                    {
+                        // Create intent to dial phone
+                        var callIntent = new Intent(Intent.ActionCall);
+                        callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
+                        StartActivity(callIntent);
+                    });
+                callDialog.SetNegativeButton("Cancel", delegate
+                {
+                });
 
+                // Show the alert dialog to the user and wait for response.
                 callDialog.Show();
             };
         }
     }
 }
-
-

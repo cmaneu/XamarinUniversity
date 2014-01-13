@@ -22,15 +22,17 @@ namespace PhonewordAndroid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            string translatedNumber = string.Empty;
-
             // Get our UI controls from the loaded layout
             Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
             EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
             Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
+            // Disable the "Call" button
             callButton.Enabled = false;
-            
+
+            // Add code to translate number
+            string translatedNumber = string.Empty;
+
             translateButton.Click += delegate
             {
                 translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
@@ -55,25 +57,27 @@ namespace PhonewordAndroid
             };
             */
 
-            // On "Call" button click, try to dial phone number.
+            // Add callButton event handler here
             callButton.Click += (sender, e) =>
             {
-                var callDialog = new AlertDialog.Builder(this)
-                    .SetMessage("Call " + translatedNumber + "?")
-                    .SetNeutralButton("Call", delegate {
-                        // TODO: Step 3a - add dialed number to list of called numbers.
-                        //_phoneNumbers.Add(translatedNumber);
-                        // TODO: Step 3b - enable the Call History button
-                        //CallHistoryButton.Enabled = true;
-
-                        var callIntent = new Intent(Intent.ActionCall);
-                        callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
-                        StartActivity(callIntent);
-                    })
-                    .SetNegativeButton("Cancel", delegate
+                // On "Call" button click, try to dial phone number.
+                var callDialog = new AlertDialog.Builder(this);
+                callDialog.SetMessage("Call " + translatedNumber + "?");
+                callDialog.SetNeutralButton("Call", delegate
                 {
-                });
+                    // TODO: Step 3a - add dialed number to list of called numbers.
+                    //_phoneNumbers.Add(translatedNumber);
+                    // TODO: Step 3b - enable the Call History button
+                    //CallHistoryButton.Enabled = true;
 
+                    // Create intent to dial phone
+                    var callIntent = new Intent(Intent.ActionCall);
+                    callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
+                    StartActivity(callIntent);
+                });
+                callDialog.SetNegativeButton("Cancel", delegate { });
+
+                // Show the alert dialog to the user and wait for response.
                 callDialog.Show();
             };
         }
