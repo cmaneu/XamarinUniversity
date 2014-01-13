@@ -20,10 +20,26 @@ Additionally, Xamarin University has a number of corporate-focused classes that 
 
 For performance and productivity reasons, we recommend doing the Xamarin University classes on your own machine/install, however, if you'd like to use a VM, for instance, if you want to stay on the Stable channel in your primary development environment, we've created two Virtual Machine images that have Xamarin all installed and ready to go. You can download them from the following links:
 
-`mark to add links`
+<<<<<<< HEAD
+ #### Windows 8 VMWare Image
 
- * [Windows 8 VMWare Image](tbd) - This image requires the free VMWare Player that can be downloaded from from [here](tbd).
- * [Mac OSX](tbd) - This image requires the free Virtual Box software to run, which can be downloaded from [here](tbd).
+ This image requires the free VMWare Player that can be downloaded from from [here](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/6_0).  There are two files you will need:
+ 1. [Xamarin.Android.vmx](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.Android VM/Xamarin.Android.vmx)
+ 2. [Xamarin.Android.vmdk Disk Image](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.Android+VM+Unzipped/Xamarin.Android.vmdk)
+ 
+ The disk image is quite large (22G) and must be placed in the same directory as the .vmx file.  If you have a slow Internet connection but more disk space available, you can download a 7zipped version of the disk image from [here](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.Android+VM/Xamarin.Android.vmdk.7z).  Then unzip the file to get the full disk image.  To run the VM, make sure you have VMWare or the free VMWare player installed and then double-click on the .vmx file you downloaded.
+
+#### Mac OSX 10.9 (Mavericks)
+
+This image requires the free Virtual Box software to run - you can download Virtual Box from [here](http://virtualbox.org).  The disk image itself is in VMWare format so you can move it to a VMWare product or convert it to Parallels fairly easily if you already own one of those tools.  Keep in mind that Apple requires any virtualized OSX system be run on Apple hardware and most VM software tools will require this. 
+
+There are two files you will need:
+
+1. [Xamarin_iOS.vbox](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS VM/Xamarin.iOS.vbox)
+2. [Xamarin_ios.vmdk](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS+VM+Unzipped/Xamarin.iOS.vmdk)
+
+ The disk image is quite large (22G) and must be placed in the same directory as the .vbx file.  If you have a slow Internet connection but more disk space available, you can download a 7zipped version of the disk image from [here](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS+VM/Xamarin.ios.vmdk.7z).  Then unzip the file to get the full disk image.  To run the VM, make sure you have VirtualBox installed and then double-click on the .vbox file you downloaded.
+
 
 # Install Requirements
 
