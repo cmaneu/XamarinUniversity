@@ -1,6 +1,6 @@
 # Welcome to Xamarin University!
 
-![Xamarain University Logo](https://raw2.github.com/xamarin/XamarinUniversity/master/Support_Files/XamU_Logo_BlueBackground.png)
+![Xamarain University Logo](https://raw2.github.com/xamarin/XamarinUniversity/master/Support_Files/XamU_Logo_BlueBackground.png?token=947633__eyJzY29wZSI6IlJhd0Jsb2I6eGFtYXJpbi9YYW1hcmluVW5pdmVyc2l0eS9tYXN0ZXIvU3VwcG9ydF9GaWxlcy9YYW1VX0xvZ29fQmx1ZUJhY2tncm91bmQucG5nIiwiZXhwaXJlcyI6MTM5MDI0Njg1NH0%3D--7d78c2b184295b205caf227b79ec6bccf3fbb458)
 
 We're excited to have you enrolled. Please read through this page, as it has lots of important things to be aware of.
 
