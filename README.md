@@ -23,20 +23,15 @@ For performance and productivity reasons, we recommend doing the Xamarin Univers
  * [Windows 8 VMWare Image](tbd) - This image requires the free VMWare Player that can be downloaded from from [here](tbd).
  * [Mac OSX](tbd) - This image requires the free Virtual Box software to run, which can be downloaded from [here](tbd).
 
-# Install Check-in
+# Install Requirements
 
-Due to the interactive nature of the Xamarin University classes, you will not be allowed to participate in a class if you don't have your development environment setup and configured correctly. 
+Due to the interactive nature of the Xamarin University classes, you will not be allowed to participate in a class if you don't have your development environment setup and configured correctly. Before class, make sure that you're on the alpha channel and you can build and deploy [TaskyPro](http://docs.xamarin.com/content/TaskyPro/) to the Android Emulator and the iOS Simulator.
 
-[send screenshots to <training@xamarin.com>]
-
- * [send screenshot of Xamarin Studio and/or Visual Studio update page showing alpha channel]
- * [download taskypro deploy to emulator (in android) simulator (in iOS), take a screen shot of it running]
-
-[if you have any issue with installation, let us know at <training@xamarin.com> and we'll setup a session with a trainer to get it resolved]
+If you have any issue with installation, let us know at <training@xamarin.com> and we'll setup a session with a trainer to get it resolved.
 
 # Signing up for Classes
 
-[here]
+The class schedule can be found at [university.xamarin.com](http://university.xamarin.com). We'll be posting the schedule week by week, and adding new classes all the time, so check back often for class updates.
 
 # Class Materials
 
