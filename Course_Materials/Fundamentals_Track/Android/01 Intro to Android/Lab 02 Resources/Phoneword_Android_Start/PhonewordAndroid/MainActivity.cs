@@ -12,8 +12,8 @@ namespace PhonewordAndroid
     [Activity(Label = "Phoneword Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        // TODO: Step 7a - add phone numbers collection
-        //readonly List<string> _phoneNumbers = new List<string>();
+        // TODO: Step 2 - add phone numbers collection
+        //static readonly List<string> _phoneNumbers = new List<string>();
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -33,7 +33,6 @@ namespace PhonewordAndroid
             
             translateButton.Click += delegate
             {
-                // *** SHARED CODE ***
                 translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
                 if (String.IsNullOrWhiteSpace(translatedNumber)) {
                     callButton.Text = "Call";
@@ -45,7 +44,7 @@ namespace PhonewordAndroid
                 }
             };
 
-            // TODO: Step 6 - handle the Call History button
+            // TODO: Step 1 - handle the Call History button
             /*
             Button CallHistoryButton = FindViewById<Button>(Resource.Id.CallHistoryButton);
             CallHistoryButton.Click += (sender, e) =>
@@ -62,9 +61,9 @@ namespace PhonewordAndroid
                 var callDialog = new AlertDialog.Builder(this)
                     .SetMessage("Call " + translatedNumber + "?")
                     .SetNeutralButton("Call", delegate {
-                        // TODO: Step 7b - add dialed number to list of called numbers.
+                        // TODO: Step 3a - add dialed number to list of called numbers.
                         //_phoneNumbers.Add(translatedNumber);
-                        // TODO: Step 7b - enable the Call History button
+                        // TODO: Step 3b - enable the Call History button
                         //CallHistoryButton.Enabled = true;
 
                         var callIntent = new Intent(Intent.ActionCall);
