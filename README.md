@@ -58,7 +58,7 @@ All class materials for Xamarin University will be posted in the [course_materia
 
 # Xamarin University Forum
 
-Say 'hi' to your fellow Xamarin University Classmates, talk about classes, labs, whatever, over at [Xamarin University Forum](http://forums.xamarin.com/categories/university)! If you don't have access to the forum, email your forum account name to <training@xamarin.com> and we'll add you right away!
+Say 'hi' to your fellow Xamarin University Classmates, talk about classes, labs, whatever, over at [Xamarin University Forum](http://forums.xamarin.com/categories/university)! They're also staffed by your Xamarin University Professors, so don't forget to say hi to them as well! If you don't have access to the forum, email your forum account name to <training@xamarin.com> and we'll add you right away!
 
 # 1 on 1 Expert Scheduling
 
