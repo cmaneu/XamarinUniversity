@@ -35,10 +35,9 @@ This image requires the free Virtual Box software to run - you can download Virt
 There are two files you will need:
 
 1. [Xamarin_iOS.vbox](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS VM/Xamarin.iOS.vbox)
-2. [Xamarin_ios.vmdk](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS+VM+Unzipped/Xamarin.iOS.vmdk)
+2. [Xamarin_ios.vmdk](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS.VM.Unzipped/Android.iOS.vmdk)
 
-The disk image is quite large (22G) and must be placed in the same directory as the .vbx file.  If you have a slow Internet connection but more disk space available, you can download a 7zipped version of the disk image from [here](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS+VM/Xamarin.ios.vmdk.7z).  Then unzip the file to get the full disk image.  To run the VM, make sure you have VirtualBox installed and then double-click on the .vbox file you downloaded.
-
+The disk image is quite large (22G) and must be placed in the same directory as the .vbx file.  If you have a slow Internet connection but more disk space available, you can download a 7zipped version of the disk image from [here](https://s3.amazonaws.com/xamarin-download/XamarinUniversity/Xamarin.iOS.VM/Android.ios.vmdk.7z).  Then unzip the file to get the full disk image.  To run the VM, make sure you have VirtualBox installed and then double-click on the .vbox file you downloaded.
 
 # Install Requirements
 
