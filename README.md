@@ -46,7 +46,13 @@ Due to the interactive nature of the Xamarin University classes, you will not be
 
 If you have any issue with installation, let us know at <training@xamarin.com> and we'll setup a session with a trainer to get it resolved.
 
-# Signing up for Classes
+# Classes
+
+## Class Catalog
+
+You can find the current Class Catalog [here](https://github.com/xamarin/XamarinUniversity/blob/master/ClassCatalog.md). Check this often, we'll be adding many more.
+
+## Signing up for Classes
 
 The class schedule can be found at [university.xamarin.com/classes](http://xamarin.trainingrocket.com/classes). We'll be posting the schedule week by week, and adding new classes all the time, so check back often for class updates. Please note that there are a lot of other links on that site, but none of them are relevant to Xamarin University. You will find all the updated content and information here.
 
