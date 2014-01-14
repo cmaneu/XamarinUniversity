@@ -69,3 +69,7 @@ Say 'hi' to your fellow Xamarin University Classmates, talk about classes, labs,
 # 1 on 1 Expert Scheduling
 
 Don't forget your 1 on 1 hours! Send an email to <training@xamarin.com> to get them scheduled. Include some preferred times on different days, and we'll get them scheduled. We'll be starting the 1 on 1 sessions on January 27th.
+
+# Troubleshooting
+
+For a list of common troubleshooting issues with Xamarin University, click [here](https://github.com/xamarin/XamarinUniversity/blob/master/Troubleshooting.md).
