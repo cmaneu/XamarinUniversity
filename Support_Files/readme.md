@@ -1,2 +1,3 @@
 # Support Files
-`Mark, please add app icons and splash screens here.`
+
+iOS and Android application icons, and iOS splashscreens.
