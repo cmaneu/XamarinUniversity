@@ -54,7 +54,7 @@ The class schedule can be found at [university.xamarin.com](http://university.xa
 
 # Class Materials
 
-All class materials for Xamarin University can be found [here](https://github.com/xamarin/XamarinUniversity/tree/master/Course_Materials), categorized by course.
+All class materials for Xamarin University will be posted in the [course_materials](https://github.com/xamarin/XamarinUniversity/tree/master/Course_Materials) directory, categorized by course. Check back often, we'll be posting new class materials daily.
 
 # Xamarin University Forum
 
