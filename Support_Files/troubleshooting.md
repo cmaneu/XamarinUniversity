@@ -12,7 +12,12 @@ Unfortunately, there was an issue with an older release of HAXM and OS X 10.9 (M
 
 If you have multiple Android SDK versions installed, there is a rare chance that apps can be built in a way that will crash immediately after you start them. This appears to be related to deploying to an emulator running an SDK version older than the lastest you have installed. If you encounter this error, as a quick fix, you can simply tell it to not use the latest SDK version to build.
 
-To do this in Xamarin Studio, right-click your Android project and choose Tools->Edit File. This will open the file to see the raw XML. Edit the `AndroidUseLatestPlatformSdk` property to `False`.
+To do this in Xamarin Studio, right-click your Android project and choose Tools->Edit File. This will open the file to see the raw XML.
+
+In Visual Studio, right-click your Android project and choose Unload Project. After it is unloaded, you can right-click and choose "Edit YourProject.csproj" to see the raw XML.
+
+Once you are editing the project XML, find the `AndroidUseLatestPlatformSdk` property and set it to `False` to fix the issue.
 
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
 
+Save the changes to your project file. Xamarin Studio will automatically load the changes. In Visual Studio, right-click the unloaded project and choose "Reload Project".
