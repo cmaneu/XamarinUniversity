@@ -48,7 +48,7 @@ If you have any issue with installation, let us know at <training@xamarin.com> a
 
 # Signing up for Classes
 
-The class schedule can be found at [university.xamarin.com](http://university.xamarin.com). We'll be posting the schedule week by week, and adding new classes all the time, so check back often for class updates.
+The class schedule can be found at [university.xamarin.com/classes](http://xamarin.trainingrocket.com/classes). We'll be posting the schedule week by week, and adding new classes all the time, so check back often for class updates. Please note that there are a lot of other links on that site, but none of them are relevant to Xamarin University. You will find all the updated content and information here.
 
 **Note:** You will need a Xamarin Single Sign On (SSO) account to access the class schedule and register for classes.  If you already have a store.xamarin.com or forums.xamarin account (both are SSO sites), then you're good to go, but if you haven't yet created one, you can do so [here](https://auth.xamarin.com/account/register).
 
