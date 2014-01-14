@@ -50,9 +50,15 @@ If you have any issue with installation, let us know at <training@xamarin.com> a
 
 The class schedule can be found at [university.xamarin.com](http://university.xamarin.com). We'll be posting the schedule week by week, and adding new classes all the time, so check back often for class updates.
 
+**Note:** You will need a Xamarin Single Sign On (SSO) account to access the class schedule and register for classes.  If you already have a store.xamarin.com or forums.xamarin account (both are SSO sites), then you're good to go, but if you haven't yet created one, you can do so [here](https://auth.xamarin.com/account/register).
+
 # Class Materials
 
 All class materials for Xamarin University can be found [here](https://github.com/xamarin/XamarinUniversity/tree/master/Course_Materials), categorized by course.
+
+# Xamarin University Forum
+
+Say 'hi' to your fellow Xamarin University Classmates, talk about classes, labs, whatever, over at [Xamarin University Forum](http://forums.xamarin.com/categories/university)! If you don't have access to the forum, email your forum account name to <training@xamarin.com> and we'll add you right away!
 
 # 1 on 1 Expert Scheduling
 
